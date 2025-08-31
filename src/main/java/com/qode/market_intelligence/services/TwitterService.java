@@ -35,17 +35,17 @@ public class TwitterService {
 	@Value("${scraper.nitter.base-url}")
 	private String nitterUrl;
 	
-	private final Twitter twitter;
+//	private final Twitter twitter;
 
-	  @Value("${tweets.default.query}")
-	  private String defaultQuery;
-
-	  @Value("${tweets.search.lang:en}")
-	  private String defaultLang;
+//	  @Value("${tweets.default.query}")
+//	  private String defaultQuery;
+//
+//	  @Value("${tweets.search.lang:en}")
+//	  private String defaultLang;
 	  
-	  public TwitterService(Twitter twitter) {
-	        this.twitter = twitter;
-	    }
+//	  public TwitterService(Twitter twitter) {
+//	        this.twitter = twitter;
+//	    }
 	  
 	  public List<Tweet> fetchByHashtag(String hashtag) {
 	        List<Tweet> tweets = new ArrayList<>();
